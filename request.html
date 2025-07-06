@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request to Sell</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Request to Sell on BlackBook</h1>
+  <form action="https://formsubmit.co/your-email@gmail.com" method="POST">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>What do you want to sell?</label><br>
+    <textarea name="description" rows="4" required></textarea><br><br>
+
+    <input type="hidden" name="_captcha" value="false">
+    <button type="submit">Submit Request</button>
+  </form>
+</body>
+</html>
